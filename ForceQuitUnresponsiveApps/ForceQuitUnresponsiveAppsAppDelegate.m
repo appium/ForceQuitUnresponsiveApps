@@ -13,9 +13,16 @@ void MyNotifyProc(CGSNotificationType type, void *data, unsigned int dataLength,
     
     NSRunningApplication *unresponsiveProcess = [NSRunningApplication runningApplicationWithProcessIdentifier:noteData->pid];
     
-    NSLog(@"Force-Quitting Unresponsive Application: %@", unresponsiveProcess.localizedName);
+    NSString* name = unresponsiveProcess.localizedName;
+    NSString* path = unresponsiveProcess.executableURL.absoluteString;
     
-    [unresponsiveProcess forceTerminate];
+    if ([name isEqualToString:@"instruments"] ||
+        [path hasSuffix:@"instruments"]) {
+      NSLog(@"Force quitting: '%@' at '%@'", name, path);
+      [unresponsiveProcess forceTerminate];
+    } else {
+      NSLog(@"Ignoring. Unresponsive app '%@' at '%@' is not instruments.", name, path);
+    }
 }
 
 @implementation ForceQuitUnresponsiveAppsAppDelegate

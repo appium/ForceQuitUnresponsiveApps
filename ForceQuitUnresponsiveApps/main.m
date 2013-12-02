@@ -5,5 +5,6 @@
 
 int main(int argc, char *argv[])
 {
+    NSLog(@"Force quit unresponsive instruments v0.0.1");
     return NSApplicationMain(argc,  (const char **) argv);
 }

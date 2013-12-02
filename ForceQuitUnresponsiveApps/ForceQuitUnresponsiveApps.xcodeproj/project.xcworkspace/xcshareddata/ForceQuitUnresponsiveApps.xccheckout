@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3A364D5A-69C6-4B3B-B12B-C07DDB5088FF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ForceQuitUnresponsiveApps</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F762B4A6-76E2-410F-BE2F-1A50A3BF298A</key>
+		<string>ssh://github.com/appium/ForceQuitUnresponsiveApps.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ForceQuitUnresponsiveApps.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F762B4A6-76E2-410F-BE2F-1A50A3BF298A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/appium/ForceQuitUnresponsiveApps.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F762B4A6-76E2-410F-BE2F-1A50A3BF298A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F762B4A6-76E2-410F-BE2F-1A50A3BF298A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ForceQuitUnresponsiveApps</string>
+		</dict>
+	</array>
+</dict>
+</plist>
