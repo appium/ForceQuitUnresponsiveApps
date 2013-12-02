@@ -1,4 +1,4 @@
-Force Quit Unresponsive Instruments
+#### Force Quit Unresponsive Instruments
 
 The code for this is from [rentzsch/ForceQuitUnresponsiveApps](https://github.com/rentzsch/ForceQuitUnresponsiveApps).
 
