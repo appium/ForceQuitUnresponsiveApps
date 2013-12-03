@@ -1,1 +1,0 @@
-./ForceQuitUnresponsiveApps.app/Contents/MacOS/ForceQuitUnresponsiveApps
